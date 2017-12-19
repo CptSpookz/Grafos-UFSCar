@@ -26,12 +26,13 @@ Grafo HA30 com 30 cidades do mundo
 ![alt text](https://github.com/CptSpookz/Grafos-UFSCar/tree/master/pages/img/ha30.png "30 cidades do mundo")
 
 OBS: Para ler e transformar uma matriz de adjacências em um grafo
-
-`import numpy as np
+```
+import numpy as np
 import networkx as nx
 
 A = np.loadtxt('matriz.txt')
-G = nx.from_numpy_matrix(A)`
+G = nx.from_numpy_matrix(A)
+```
 
 ## PROJETO 3: BUSCA EM LARGURA E PROFUNDIDADE
 
@@ -47,9 +48,11 @@ Dolphins Social Network
 
 OBS: Para ler um grafo no formato .paj 
 
-`import networkx as nx
+```
+import networkx as nx
 
-G = nx.read_pajek('karate.paj')`
+G = nx.read_pajek('karate.paj')
+```
 
 ## PROJETO 4: ÁRVORES DE CAMINHOS MÍNIMOS E AGRUPAMENTO DE DADOS
 A partir de um dataset específico (grafo ponderado armazenado em arquivo .gml, .graphml, .txt, .net, etc) e implementar o algoritmo de Dijkstra para extrair uma árvore de caminhos mínimos de G.
@@ -63,20 +66,21 @@ Após a implementação do algoritmo, uma forma de crescer várias subárvores d
 Considerando o grafo em questão, mostre os resultados (plote graficamente) obtidos para:
 a) 2 agrupamentos (K = 2) 
 b) 3 agrupamentos (K = 3)
-59 cidades da Alemanha Ocidental
 
 Grafo com 59 cidades da Alemanha ocidental e suas distâncias
 
-![alt text](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/wg59.png "5 cidades da Alemanha ocidental e suas distâncias")
+![alt text](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/wg59.png "59 cidades da Alemanha ocidental")
 
 
 OBS: Para ler e transformar uma matriz de adjacências em um grafo
 
-`import numpy as np
+```
+import numpy as np
 import networkx as nx
 
 A = np.loadtxt('matriz.txt')
-G = nx.from_numpy_matrix(A)`
+G = nx.from_numpy_matrix(A)
+```
 
 ## PROJETO 5 - OPÇÃO A: O PROBLEMA DO CAIXEIRO VIAJANTE
 Desenvolver um programa que deve ler um grafo Hamiltoniano ponderado a partir de um arquivo qualquer e através de um algoritmo visto em sala (2-otimal ou Twice-Around) obter 10 soluções diferentes para o problema do caixeiro-viajante.
