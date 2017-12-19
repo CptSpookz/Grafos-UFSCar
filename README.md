@@ -7,7 +7,7 @@ Snakes and Ladders é um famoso jogo de tabuleiro em que a cada rodada um jogado
 
 Tabuleiro de Snakes and Ladders
 
-![alt text](https://github.com/CptSpookz/Grafos-UFSCar/tree/master/pages/img/snakesladders.jpg "Snakes and Ladders")
+![Snakes and Ladders](https://github.com/CptSpookz/Grafos-UFSCar/tree/master/pages/img/snakesladders.jpg)
 
 Com base nas informações, responda:
 
@@ -23,7 +23,7 @@ A partir de um dataset específico (grafo ponderado armazenado em arquivo .gml, 
 
 Grafo HA30 com 30 cidades do mundo
 
-![alt text](https://github.com/CptSpookz/Grafos-UFSCar/tree/master/pages/img/ha30.png "30 cidades do mundo")
+![30 Cidades do Mundo](https://github.com/CptSpookz/Grafos-UFSCar/tree/master/pages/img/ha30.png)
 
 OBS: Para ler e transformar uma matriz de adjacências em um grafo
 ```
@@ -40,11 +40,11 @@ Implementar os algoritmos BFS e DFS para extrair as árvores BFS-tree e DFS-tree
 
 Zachary's Karate Club
 
-![alt text](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/zach_layout3.jpg "Zachary karate club")
+![Zachary's Karate Club](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/zach_layout3.jpg)
 
 Dolphins Social Network
 
-![alt text](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/dolphins.png "Dolphins social network")
+![Dolphins Social Network](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/dolphins.png)
 
 OBS: Para ler um grafo no formato .paj 
 
@@ -69,8 +69,7 @@ b) 3 agrupamentos (K = 3)
 
 Grafo com 59 cidades da Alemanha ocidental e suas distâncias
 
-![alt text](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/wg59.png "59 cidades da Alemanha ocidental")
-
+![59 cidades da Alemanha ocidental](https://github.com/CptSpookz/Grafos-UFSCar/blob/master/pages/img/wg59.png)
 
 OBS: Para ler e transformar uma matriz de adjacências em um grafo
 
@@ -95,6 +94,6 @@ Liste as 3 melhores soluções e as 3 piores obtidas. Qual a diferença de custo
 
 Considere o grafo a seguir de 30 vértices (HA30)
 
-![alt text](https://github.com/CptSpookz/Grafos-UFSCar/tree/master/pages/img/ha30.png "30 cidades do mundo")
+![30 cidades do mundo](https://github.com/CptSpookz/Grafos-UFSCar/tree/master/pages/img/ha30.png)
 
 
